@@ -560,53 +560,56 @@ body {
 		color:var(--white);
 		font-size: 1.5rem;
 		margin-top: .8rem;
+		margin-left: 4rem;
 		width: 75%;
 	}
 	.portfolio .content h4{
 		color:var(--white);
 		font-size: .8rem;
+		margin-top: 1rem;
+		margin-left: 4rem;
 		width: 75%;
 	}
 	.portfolio .content img{
 		position: absolute;
-		margin-left: 5rem;
+		margin-left: 4rem;
 		margin-top: 2rem;
 		width: 75%;
 	}
 	.portfolio .content .pic-setting{
 		position: absolute;
-		margin-left: 5rem;
+		margin-left: 4rem;
 		margin-top: 2rem;
 		width: 75%;
 	}
 	.portfolio .content .tdl{
 		position: absolute;
-		margin-left: 9rem;
+		margin-left: 7rem;
 		margin-top: 2rem;
 		width: 50%;
 	}
 	.portfolio hr{
-		margin-left: 3.5rem;
+		margin-left: 2.5rem;
 		width: 85%;
 	}
 
 	.contact .content h3{
 		color:var(--white);
 		font-size: 2rem;
-		margin-left: 11rem;
+		margin-left: 8rem;
 		margin-top: 2%;
 	}
 	.contact .content h4{
 		color:var(--white);
 		font-size: 1rem;
-		margin-left: 12rem;
+		margin-left: 9rem;
 		margin-top: 2%;
 	}
 	.contact .content i{
 		color:var(--white);
 		position: absolute;
 		font-size: 1rem;
-		margin-left: 10rem;
+		margin-left: 7rem;
 		margin-top: 1%;
 		 
 	}
