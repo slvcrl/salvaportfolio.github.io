@@ -298,7 +298,7 @@ body {
 
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px){
 	.hamburger{
 		display: block;
 	}
@@ -454,7 +454,7 @@ body {
 		 
 	}
 }
-@media only screen and (min-width: 496px)  {
+@media only screen and (max-width: 767px) {
 	.hamburger{
 		display: block;
 	}
@@ -581,10 +581,9 @@ body {
 	}
 	.portfolio .content .tdl{
 		position: absolute;
-		margin-left: 8.5rem;
+		margin-left: 9rem;
 		margin-top: 2rem;
 		width: 50%;
-		
 	}
 	.portfolio hr{
 		margin-left: 3.5rem;
