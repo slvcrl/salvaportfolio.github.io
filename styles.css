@@ -287,13 +287,6 @@ body {
 	margin-left: 31rem;
 	margin-top: -1.5rem;
 }
-.contact .content img{
-    display: flex;
-	margin-top: -22rem;
-	margin-left: 45rem;
-	width: 30rem;
-	left: 30rem;
-}
 /** contact ends**/
 
 /** footer starts**/
@@ -339,7 +332,7 @@ body {
 		left: 0;
 	}
 	.home .content h3{
-		width: 100%;
+		width: 85%;
 	}
 	.home .content img{
 		display: absolute;
@@ -359,7 +352,8 @@ body {
 	}
 	.about .content img{
 		display: flex;
-		width: 70%;
+		width: 40%;
+		margin-left: 15rem;
 	}
 	.skill-container{
 		position: absolute;
@@ -439,6 +433,26 @@ body {
 		margin-bottom: 6rem;
 		width: 85%;
 	}
+	.contact .content h3{
+		color:var(--white);
+		font-size: 3rem;
+		margin-left: 16rem;
+		margin-top: 2%;
+	}
+	.contact .content h4{
+		color:var(--white);
+		font-size: 2rem;
+		margin-left: 17rem;
+		margin-top: 2%;
+	}
+	.contact .content i{
+		color:var(--white);
+		position: absolute;
+		font-size: 2rem;
+		margin-left: 14rem;
+		margin-top: 1%;
+		 
+	}
 }
 @media only screen and (max-width: 600px) {
 	.hamburger{
@@ -468,7 +482,7 @@ body {
 		transition: 0.3s;
 	}
 	.nav-item{
-		margin: 16px 0;
+		margin: 5px 0;
 	}
 	.nav-menu.active{
 		left: 0;
@@ -538,40 +552,63 @@ body {
 		justify-content: center;
 	}
 
+	.portfolio .content{
+		width: 100%;
+		margin-right: 4rem;
+	}
 	.portfolio .content h3{
 		color:var(--white);
-		font-size: 2rem;
-		margin-top: -2rem;
-		margin-right: 15rem;
+		font-size: 1.5rem;
+		margin-top: .8rem;
+		width: 75%;
 	}
-	
 	.portfolio .content h4{
 		color:var(--white);
-		font-size: 1rem;
-		margin-left: 5rem;
-		margin-top: -2rem;
-		margin-right: 35rem;
+		font-size: .8rem;
+		width: 75%;
 	}
 	.portfolio .content img{
 		position: absolute;
 		margin-left: 5rem;
 		margin-top: 2rem;
-		width: 65%;
+		width: 75%;
 	}
 	.portfolio .content .pic-setting{
 		position: absolute;
 		margin-left: 5rem;
 		margin-top: 2rem;
-		width: 65%;
+		width: 75%;
 	}
 	.portfolio .content .tdl{
 		position: absolute;
 		margin-left: 5rem;
 		margin-top: 2rem;
-		width: 65%;
+		width: 75%;
 	}
 	.portfolio hr{
-		margin-bottom: 6rem;
-		width: 65%;
+		margin-left: 3.5rem;
+		width: 85%;
 	}
+
+	.contact .content h3{
+		color:var(--white);
+		font-size: 2rem;
+		margin-left: 11rem;
+		margin-top: 2%;
+	}
+	.contact .content h4{
+		color:var(--white);
+		font-size: 1rem;
+		margin-left: 12rem;
+		margin-top: 2%;
+	}
+	.contact .content i{
+		color:var(--white);
+		position: absolute;
+		font-size: 1rem;
+		margin-left: 10rem;
+		margin-top: 1%;
+		 
+	}
+	
 }
